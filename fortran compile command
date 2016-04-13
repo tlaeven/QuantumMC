@@ -1,0 +1,1 @@
+f2py3 -c --fcompiler="gfortran" --f90flags="-ffast-math -march=native -O3" -m compiledFunctions compiledFunctions.f90
